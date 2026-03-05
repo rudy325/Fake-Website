@@ -20,7 +20,20 @@
       padding: 1.5rem 2rem;
       text-align: center;
     }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     header h1 { font-size: 1.5rem; font-weight: 600; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+    nav a:hover { opacity: 1; }
     main {
       flex: 1;
       display: flex;
@@ -44,6 +57,10 @@
 <body>
   <header>
     <h1>Demo Support Center</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="demo.html">Demo</a>
+    </nav>
   </header>
   <main>
     <div class="card">
